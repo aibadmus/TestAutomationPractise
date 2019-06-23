@@ -2,7 +2,6 @@
 This project consists of tests for:
 http://automationpractice.com/index.php
 
-https://github.com/buildit/acceptance-testing
 # Pre-requisites for running the test:
 Install Intellij Idea
 Create Maven Project
