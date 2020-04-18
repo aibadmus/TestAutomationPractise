@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="WorkingBranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587212113907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed unused feature step">
+      <created>1587213447574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587213447574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,10 +138,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587210638323">
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587213552186">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210638323" />
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587213552186" />
     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587209037427">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
@@ -190,17 +198,17 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="2100" y="222" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209237719" />
-    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587210650873">
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587213468499">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210650873" />
-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587210907504">
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587213468499" />
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587213187742">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210907504" />
-    <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587212348420">
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587213187742" />
+    <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587213438010">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2070" y="236" key="git4idea.merge.GitPullDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587212348420" />
+    <state x="2070" y="236" key="git4idea.merge.GitPullDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587213438010" />
   </component>
 </project>
