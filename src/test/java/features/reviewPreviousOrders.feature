@@ -1,6 +1,5 @@
 Feature: Should be able to review previous orders
   Scenario: I would like to review my previous orders
-
     Given I am successfully signed in with my details
     And I go to my order history and details
     Then I can see my previous orders
