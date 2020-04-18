@@ -8,7 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import pageObject.*;
 
-public class Purchase2ItemsSteps extends BaseStepDefs{
+public class PurchaseItemsSteps extends BaseStepDefs{
 
     @Given("^I am successfully signed in$")
     public void i_am_successfully_signed_in() {

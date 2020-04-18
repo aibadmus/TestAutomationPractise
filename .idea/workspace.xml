@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,10 +167,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587215512840">
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587230285881">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587215512840" />
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587230285881" />
     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587209037427">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
