@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
-    </list>
+    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ahxOJwMxD13lrpGQgThSBnJj41" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587213447574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated files">
+      <created>1587230678590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587230678590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed unused feature step" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unused feature step" />
+    <MESSAGE value="Updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1888" y="22" key="#Project_Structure" timestamp="1587203132879">
@@ -167,10 +176,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587230285881">
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587230678208">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587230285881" />
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587230678208" />
     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587209037427">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
@@ -227,10 +236,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="2100" y="222" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209237719" />
-    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587213468499">
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587230684654">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587213468499" />
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587230684654" />
     <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587213187742">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
