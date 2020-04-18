@@ -1,20 +1,20 @@
 package pageObject;
 
-import helper.BasePage;
-import org.openqa.selenium.Alert;
+import helper.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import javax.swing.*;
 import java.util.concurrent.TimeUnit;
 
-public class ProductPage extends BasePage {
+public class ProductPage  {
+    WebDriver driver;
 
     @FindBy(css= ("#group_1"))
     private WebElement sizeDropDown;
@@ -58,42 +58,32 @@ public class ProductPage extends BasePage {
     @FindBy(css = "#header > div:nth-child(3) > div > div > div:nth-child(3) > div > a")
     private  WebElement shoppingCartDropDown;
 
+    @FindBy(className = "fancybox-iframe")
+    private WebElement popUpWindow;
+
     public ProductPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-
     public void changeSizeToMedium() {
         Select medium = new Select(sizeDropDown);
         medium.selectByVisibleText("M");
-
     }
 
     public void addItemToCart() {
         addToCartButton.click();
-
     }
     public  void clickContinueShopping () {
         contiuneShoppingButton.click();
     }
     public void changeFocusToPopup () {
-        driver.switchTo().frame(driver.findElement(By.className("fancybox-iframe")));
-
+        driver.switchTo().frame(popUpWindow);
     }
     public void clickProceedToCheckOut () {
         proceedToCheckOut.click();
 
     }
-
-    //        public String getItemSize(){
-    //            String itemSize = item1SizeLocator.getAttribute("innerHTML");
-    //            System.out.println(itemSize.contains("Size : M"));
-    ////            return itemSize;
-
-    //        }
-
-
 
     public String verifyItem1Size() {
         String itemSize = item1SizeLocator.getAttribute("innerHTML");
@@ -155,6 +145,12 @@ public class ProductPage extends BasePage {
         String calcTotalAmount = "$"+String.valueOf(calcTotal);
         Assert.assertTrue(total.contentEquals(calcTotalAmount));
     }
+
+    public void waitForElement(String item) {
+        WebDriverWait wait = new WebDriverWait(driver,100);
+        WebElement element =  wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fancybox-iframe")));
+    }
+
 
 }
 

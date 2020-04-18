@@ -1,12 +1,14 @@
 package pageObject;
 
-import helper.BasePage;
+import helper.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PaymentPage extends BasePage {
+public class PaymentPage  {
+    WebDriver driver;
+
     @FindBy(css = ".bankwire")
     private WebElement bankwirePaymentOption;
 

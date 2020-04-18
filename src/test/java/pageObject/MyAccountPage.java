@@ -1,6 +1,6 @@
 package pageObject;
 
-import helper.BasePage;
+import helper.DriverFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,8 @@ import java.io.File;
 import org.apache.commons.io.FileUtils;
 
 
-public class MyAccountPage extends BasePage {
+public class MyAccountPage  {
+    WebDriver driver;
 
     @FindBy(css = ".sf-menu > li:nth-child(1)")
     private WebElement WomenTab;
