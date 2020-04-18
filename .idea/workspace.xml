@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
