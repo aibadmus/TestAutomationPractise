@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/ReviewPreviousOrdersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/ReviewPreviousOrdersSteps.java" afterDir="false" />
+    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1587201593913</updated>
     </task>
+    <task id="LOCAL-00001" summary="Removed unused feature step">
+      <created>1587208875594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587208875594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed unused feature step" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused feature step" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1888" y="22" key="#Project_Structure" timestamp="1587203132879">
@@ -106,30 +116,30 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587204973510">
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587208960097">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204973510" />
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208960097" />
     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587202361796">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1824" y="91" key="DiffContextDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587202361796" />
-    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1587204868098">
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1587208668602">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868098" />
-    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1587204868097">
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668602" />
+    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1587208668599">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868097" />
-    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1587204868097">
+    <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668599" />
+    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1587208668598">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868097" />
-    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1587204868098">
+    <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668598" />
+    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1587208668600">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868098" />
+    <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668600" />
     <state width="1878" height="336" key="GridCell.Tab.1.bottom" timestamp="1587204751236">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
@@ -154,10 +164,14 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1909" y="79" key="SettingsEditor/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203151562" />
-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587204062399">
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587208936795">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204062399" />
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208936795" />
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587208812578">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208812578" />
     <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587204040331">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
