@@ -1,0 +1,224 @@
+Index: BJSS_reqres.postman_collection.json
+===================================================================
+--- BJSS_reqres.postman_collection.json	(revision 4450deda6f0528eb822cc6ce4694f03b1f0b7ba0)
++++ BJSS_reqres.postman_collection.json	(revision 4450deda6f0528eb822cc6ce4694f03b1f0b7ba0)
+@@ -1,81 +0,0 @@
+-{
+-	"info": {
+-		"_postman_id": "58030b6b-4cb0-4edb-b8ea-263511f593f6",
+-		"name": "BJSS_reqres",
+-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+-	},
+-	"item": [
+-		{
+-			"name": "Get List Users",
+-			"request": {
+-				"method": "GET",
+-				"header": [],
+-				"body": {},
+-				"url": {
+-					"raw": ""
+-				}
+-			},
+-			"response": []
+-		},
+-		{
+-			"name": "Get Single User",
+-			"request": {
+-				"method": "GET",
+-				"header": [],
+-				"body": {},
+-				"url": {
+-					"raw": ""
+-				}
+-			},
+-			"response": []
+-		},
+-		{
+-			"name": "SINGLE USER NOT FOUND",
+-			"request": {
+-				"method": "GET",
+-				"header": [],
+-				"body": {},
+-				"url": {
+-					"raw": ""
+-				}
+-			},
+-			"response": []
+-		},
+-		{
+-			"name": "Create User",
+-			"request": {
+-				"method": "GET",
+-				"header": [],
+-				"body": {},
+-				"url": {
+-					"raw": ""
+-				}
+-			},
+-			"response": []
+-		},
+-		{
+-			"name": "Update User",
+-			"request": {
+-				"method": "GET",
+-				"header": [],
+-				"body": {},
+-				"url": {
+-					"raw": ""
+-				}
+-			},
+-			"response": []
+-		},
+-		{
+-			"name": "Delete User",
+-			"request": {
+-				"method": "GET",
+-				"header": [],
+-				"body": {},
+-				"url": {
+-					"raw": ""
+-				}
+-			},
+-			"response": []
+-		}
+-	]
+-}
+\ No newline at end of file
+Index: src/test/java/features/Purchase2Items.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>  Feature: Should be able to buy 2 items\n    Scenario: Purchases 2 items with different sizes\n      Given I am successfully signed in\n      When I 'Quick view’ an item\n      And I Change the size of the item\n      And I Add that item to my basket\n      And I ‘Quick view’ a different item (leave the size at the default)\n      And I Add the item to my basket\n      And I View the basket to confirm that the items are of the size you selected,\n      And I check that their prices are correct,\n      And I Check that Total amount includes the Products with the Shipping cost\n      And I Proceed through checkout to payment\n      Then I should get a confirmation that my transaction is completed
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/features/Purchase2Items.feature	(revision 4450deda6f0528eb822cc6ce4694f03b1f0b7ba0)
++++ src/test/java/features/Purchase2Items.feature	(date 1587204866250)
+@@ -1,8 +1,7 @@
+   Feature: Should be able to buy 2 items
+     Scenario: Purchases 2 items with different sizes
+-      Given I am successfully signed in
+-      When I 'Quick view’ an item
+-      And I Change the size of the item
++      Given I 'Quick view’ an item
++      When I Change the size of the item
+       And I Add that item to my basket
+       And I ‘Quick view’ a different item (leave the size at the default)
+       And I Add the item to my basket
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ffb3fd8e-b0a5-4954-804f-b9dbd8d12941\" name=\"Default Changelist\" comment=\"Removed unused feature step\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/features/purchase2items.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/features/purchase2items.feature\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/stepDefinition/ReviewPreviousOrdersSteps.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/stepDefinition/ReviewPreviousOrdersSteps.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1ahxOJwMxD13lrpGQgThSBnJj41\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"project.structure.last.edited\" value=\"Problems\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.projectsettings.compiler.javacompiler\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Cucumber Java.Scenario: Purchases 2 items with different sizes (1)\">\n    <configuration name=\"Scenario: Purchases 2 items with different sizes (1)\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"2\" />\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/java/features/purchase2items.feature\" />\n      <option name=\"GLUE\" value=\"helper stepDefinition\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\n      <module name=\"TestAutomationPractise\" />\n      <option name=\"NAME_FILTER\" value=\"^Purchases 2 items with different sizes$\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Purchases 2 items with different sizes$&quot;\" />\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Purchases 2 items with different sizes\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Scenario: Purchases 2 items with different sizes\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"2\" />\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature\" />\n      <option name=\"GLUE\" value=\"helper stepDefinition\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\n      <module name=\"TestAutomationPractise\" />\n      <option name=\"NAME_FILTER\" value=\"^Purchases 2 items with different sizes$\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Purchases 2 items with different sizes$&quot;\" />\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Purchases 2 items with different sizes\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Cucumber Java.Scenario: Purchases 2 items with different sizes (1)\" />\n        <item itemvalue=\"Cucumber Java.Scenario: Purchases 2 items with different sizes\" />\n        <item itemvalue=\"Cucumber Java.Scenario: Purchases 2 items with different sizes\" />\n        <item itemvalue=\"Cucumber Java.Scenario: Purchases 2 items with different sizes\" />\n        <item itemvalue=\"Cucumber Java.Scenario: Purchases 2 items with different sizes\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration>$USER_HOME$/.subversion</configuration>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ffb3fd8e-b0a5-4954-804f-b9dbd8d12941\" name=\"Default Changelist\" comment=\"\" />\n      <created>1587201593913</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1587201593913</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"1888\" y=\"22\" key=\"#Project_Structure\" timestamp=\"1587203132879\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"1888\" y=\"22\" key=\"#Project_Structure/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587203132879\" />\n    <state x=\"1864\" y=\"102\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1587203199709\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"1864\" y=\"102\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587203199709\" />\n    <state x=\"2012\" y=\"16\" key=\"CommitChangelistDialog2\" timestamp=\"1587204973510\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"2012\" y=\"16\" key=\"CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204973510\" />\n    <state x=\"1824\" y=\"91\" key=\"DiffContextDialog\" timestamp=\"1587202361796\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"1824\" y=\"91\" key=\"DiffContextDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587202361796\" />\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1587204868098\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204868098\" />\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.center\" timestamp=\"1587204868097\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204868097\" />\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.left\" timestamp=\"1587204868097\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204868097\" />\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.right\" timestamp=\"1587204868098\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"272\" key=\"GridCell.Tab.0.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204868098\" />\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1587204751236\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204751236\" />\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.center\" timestamp=\"1587204751234\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204751234\" />\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.left\" timestamp=\"1587204751233\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204751233\" />\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.right\" timestamp=\"1587204751235\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state width=\"1878\" height=\"336\" key=\"GridCell.Tab.1.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204751235\" />\n    <state x=\"2155\" y=\"150\" key=\"RollbackChangesDialog\" timestamp=\"1587204959908\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"2155\" y=\"150\" key=\"RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204959908\" />\n    <state x=\"1909\" y=\"79\" key=\"SettingsEditor\" timestamp=\"1587203151562\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"1909\" y=\"79\" key=\"SettingsEditor/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587203151562\" />\n    <state x=\"2166\" y=\"236\" key=\"git4idea.merge.GitMergeDialog\" timestamp=\"1587204062399\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"2166\" y=\"236\" key=\"git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204062399\" />\n    <state x=\"2070\" y=\"236\" key=\"git4idea.merge.GitPullDialog\" timestamp=\"1587204040331\">\n      <screen x=\"1440\" y=\"-72\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"2070\" y=\"236\" key=\"git4idea.merge.GitPullDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057\" timestamp=\"1587204040331\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 4450deda6f0528eb822cc6ce4694f03b1f0b7ba0)
++++ .idea/workspace.xml	(date 1587205347162)
+@@ -1,10 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/ReviewPreviousOrdersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/ReviewPreviousOrdersSteps.java" afterDir="false" />
++    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed redundant feature step">
++      <change beforePath="$PROJECT_DIR$/BJSS_reqres.postman_collection.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -95,7 +94,19 @@
+       <option name="presentableId" value="Default" />
+       <updated>1587201593913</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Removed redundant feature step">
++      <created>1587205038311</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1587205038311</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Removed redundant feature step" />
++    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant feature step" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="1888" y="22" key="#Project_Structure" timestamp="1587203132879">
+@@ -106,30 +117,30 @@
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
+-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587204973510">
++    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587205283145">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204973510" />
++    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205283145" />
+     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587202361796">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+     <state x="1824" y="91" key="DiffContextDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587202361796" />
+-    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1587204868098">
++    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1587205286300">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868098" />
+-    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1587204868097">
++    <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205286300" />
++    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1587205286299">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868097" />
+-    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1587204868097">
++    <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205286299" />
++    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1587205286299">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868097" />
+-    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1587204868098">
++    <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205286299" />
++    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1587205286300">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204868098" />
++    <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205286300" />
+     <state width="1878" height="336" key="GridCell.Tab.1.bottom" timestamp="1587204751236">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+@@ -146,21 +157,25 @@
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+     <state width="1878" height="336" key="GridCell.Tab.1.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204751235" />
+-    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587204959908">
++    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587205002328">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204959908" />
++    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205002328" />
+     <state x="1909" y="79" key="SettingsEditor" timestamp="1587203151562">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+     <state x="1909" y="79" key="SettingsEditor/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203151562" />
+-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587204062399">
++    <state x="2000" y="167" key="Vcs.Push.Dialog.v2" timestamp="1587205137208">
++      <screen x="1440" y="-72" width="1920" height="1057" />
++    </state>
++    <state x="2000" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205137208" />
++    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587205339991">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204062399" />
+-    <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587204040331">
++    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205339991" />
++    <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587205319213">
+       <screen x="1440" y="-72" width="1920" height="1057" />
+     </state>
+-    <state x="2070" y="236" key="git4idea.merge.GitPullDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204040331" />
++    <state x="2070" y="236" key="git4idea.merge.GitPullDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587205319213" />
+   </component>
+ </project>
+\ No newline at end of file

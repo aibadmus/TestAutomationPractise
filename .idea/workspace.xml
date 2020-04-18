@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ahxOJwMxD13lrpGQgThSBnJj41" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Purchases 2 items with different sizes (1)">
+    <configuration name="Scenario: Purchases 2 items with different sizes (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/purchase2items.feature" />
+      <option name="GLUE" value="helper stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TestAutomationPractise" />
+      <option name="NAME_FILTER" value="^Purchases 2 items with different sizes$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Purchases 2 items with different sizes$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Purchases 2 items with different sizes" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Purchases 2 items with different sizes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" />
+      <option name="GLUE" value="helper stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TestAutomationPractise" />
+      <option name="NAME_FILTER" value="^Purchases 2 items with different sizes$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Purchases 2 items with different sizes$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Purchases 2 items with different sizes" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
+        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
+        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
+        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="" />
+      <created>1587201593913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587201593913</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Removed unused feature step">
+      <created>1587208875594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587208875594</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed unused feature step">
+      <created>1587209047033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587209047033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed unused feature step" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused feature step" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1888" y="22" key="#Project_Structure" timestamp="1587203132879">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="1888" y="22" key="#Project_Structure/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203132879" />
+    <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587203199709">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587209046818">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209046818" />
+    <state x="1824" y="91" key="DiffContextDialog" timestamp="1587209037427">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="1824" y="91" key="DiffContextDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209037427" />
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom" timestamp="1587208668602">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668602" />
+    <state width="1878" height="272" key="GridCell.Tab.0.center" timestamp="1587208668599">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668599" />
+    <state width="1878" height="272" key="GridCell.Tab.0.left" timestamp="1587208668598">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668598" />
+    <state width="1878" height="272" key="GridCell.Tab.0.right" timestamp="1587208668600">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="272" key="GridCell.Tab.0.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587208668600" />
+    <state width="1878" height="336" key="GridCell.Tab.1.bottom" timestamp="1587204751236">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="336" key="GridCell.Tab.1.bottom/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204751236" />
+    <state width="1878" height="336" key="GridCell.Tab.1.center" timestamp="1587204751234">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="336" key="GridCell.Tab.1.center/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204751234" />
+    <state width="1878" height="336" key="GridCell.Tab.1.left" timestamp="1587204751233">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="336" key="GridCell.Tab.1.left/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204751233" />
+    <state width="1878" height="336" key="GridCell.Tab.1.right" timestamp="1587204751235">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="336" key="GridCell.Tab.1.right/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204751235" />
+    <state x="1440" y="-72" width="1920" height="1057" key="MergeDialog" timestamp="1587209302720">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="1440" y="-72" width="1920" height="1057" key="MergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209302720" />
+    <state x="1829" y="167" width="679" height="399" key="MultipleFileMergeDialog" timestamp="1587209302767">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="1829" y="167" width="679" height="399" key="MultipleFileMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209302767" />
+    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587209024205">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209024205" />
+    <state x="1909" y="79" key="SettingsEditor" timestamp="1587203151562">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="1909" y="79" key="SettingsEditor/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203151562" />
+    <state x="2100" y="222" key="Vcs.Multiple.Commit.Info.Dialog.Key" timestamp="1587209237719">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2100" y="222" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209237719" />
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587209058440">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209058440" />
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587209098056">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209098056" />
+    <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587204040331">
+      <screen x="1440" y="-72" width="1920" height="1057" />
+    </state>
+    <state x="2070" y="236" key="git4idea.merge.GitPullDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587204040331" />
+  </component>
+</project>
