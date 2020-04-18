@@ -1,7 +1,8 @@
   Feature: Should be able to buy 2 items
     Scenario: Purchases 2 items with different sizes
-      Given I 'Quick view’ an item
-      When I Change the size of the item
+      Given I am successfully signed in
+      When I 'Quick view’ an item
+      And I Change the size of the item
       And I Add that item to my basket
       And I ‘Quick view’ a different item (leave the size at the default)
       And I Add the item to my basket
