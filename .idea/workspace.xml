@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
         <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
         <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes (1)" />
         <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
-        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes" />
+        <item itemvalue="Cucumber Java.Scenario: Purchases 2 items with different sizes (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -124,10 +123,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587209577062">
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587210638323">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209577062" />
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210638323" />
     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587209037427">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
@@ -172,10 +171,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1829" y="167" width="679" height="399" key="MultipleFileMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209302767" />
-    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587209024205">
+    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587210359239">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209024205" />
+    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210359239" />
     <state x="1909" y="79" key="SettingsEditor" timestamp="1587203151562">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
@@ -184,14 +183,14 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="2100" y="222" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209237719" />
-    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587209058440">
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2" timestamp="1587210650873">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209058440" />
-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587209550087">
+    <state x="2000" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210650873" />
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog" timestamp="1587210907504">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209550087" />
+    <state x="2166" y="236" key="git4idea.merge.GitMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210907504" />
     <state x="2070" y="236" key="git4idea.merge.GitPullDialog" timestamp="1587204040331">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
