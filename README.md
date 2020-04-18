@@ -1,4 +1,4 @@
-# bjssibukun
+# Test Automation Framework
 This project consists of tests for:
 http://automationpractice.com/index.php
 
