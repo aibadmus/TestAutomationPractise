@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Purchase2Items.feature" afterDir="false" />
-    </list>
+    <list default="true" id="ffb3fd8e-b0a5-4954-804f-b9dbd8d12941" name="Default Changelist" comment="Removed unused feature step" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +140,18 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed unused feature step" />
     <option name="LAST_COMMIT_MESSAGE" value="Removed unused feature step" />
@@ -138,10 +165,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1864" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587203199709" />
-    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587213552186">
+    <state x="2012" y="16" key="CommitChangelistDialog2" timestamp="1587215512840">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587213552186" />
+    <state x="2012" y="16" key="CommitChangelistDialog2/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587215512840" />
     <state x="1824" y="91" key="DiffContextDialog" timestamp="1587209037427">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
@@ -186,10 +213,10 @@
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
     <state x="1829" y="167" width="679" height="399" key="MultipleFileMergeDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587209302767" />
-    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587210359239">
+    <state x="2155" y="150" key="RollbackChangesDialog" timestamp="1587215511535">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
-    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587210359239" />
+    <state x="2155" y="150" key="RollbackChangesDialog/0.23.1440.845/1440.-72.1920.1057@1440.-72.1920.1057" timestamp="1587215511535" />
     <state x="1909" y="79" key="SettingsEditor" timestamp="1587203151562">
       <screen x="1440" y="-72" width="1920" height="1057" />
     </state>
