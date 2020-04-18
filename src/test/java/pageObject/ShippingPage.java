@@ -1,12 +1,14 @@
 package pageObject;
 
-import helper.BasePage;
+import helper.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ShippingPage extends BasePage {
+public class ShippingPage  {
+    WebDriver driver;
+
 
     @FindBy(css = "button.button:nth-child(4)")
     private WebElement proceedToCheckOutButton;

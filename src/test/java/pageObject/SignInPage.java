@@ -1,13 +1,13 @@
 package pageObject;
 
-import helper.BasePage;
-import org.openqa.selenium.By;
+import helper.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SignInPage extends BasePage {
+public class SignInPage {
+  WebDriver driver;
 
 
   @FindBy(css= (".login"))
